@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug TS",
+            "preLaunchTask": "tsc: build - tsconfig.json", // runs the TypeScript compiler before debugging
+            "program": "${workspaceFolder}/src/app.ts", // specify the TypeScript file to debug
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ], // specify the location of the compiled JavaScript files
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

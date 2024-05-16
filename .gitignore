@@ -8,7 +8,7 @@ yarn-error.log
 /out/
 
 # IDE/Editor specific
-.vscode/
+# .vscode/
 .idea/
 *.iml
 
@@ -32,3 +32,6 @@ logs/
 # Miscellaneous
 .DS_Store
 Thumbs.db
+
+# Build
+dist/*
